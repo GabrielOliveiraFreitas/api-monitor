@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar o codigo do repositorio
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Scanner de Vulnerabilidades (Bloqueia CRITICAS)
         uses: aquasecurity/trivy-actions@master
